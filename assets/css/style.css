@@ -1,0 +1,116 @@
+@import url('reset.css');
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    background-color: #f8f8f8;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 12px;
+    line-height: normal;
+    color: rgba(81, 81, 81, 1);
+}
+
+header {
+    width: 1440px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    background-color: #FFFFFF;
+}
+
+header .headerContentLeft {
+    width: 146px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .headerContentRight {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 24px;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 14px 0;
+    position: absolute;
+    top: 84px;
+    left: 75px;
+}
+
+section .video-actions {
+    display: flex;
+    align-items: center;
+    gap: 0 42px;
+}
+
+section .video-actions .videos-actions-content {
+    display: flex;
+    gap: 0 12px;
+    align-items: center;
+}
+
+section .video-actions .videos-actions-content button {
+    width: 159px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: rgba(204, 0, 0, 1);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+section #videoInfoText {
+    width: 510px;
+    font-size: 14px;
+}
+
+.sidebar-content {
+    display: flex;
+    gap: 0 12px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 16px 0;
+    position: absolute;
+    top: 84px;
+    left: 1052px;
+}
+
+.sidebar-content .siderbarContentText {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 196px;
+    height: 89px;
+}
